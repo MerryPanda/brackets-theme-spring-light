@@ -1,2 +1,3 @@
-# brackets-theme-spring-light
+Brackets Theme / Spring Light
+============================
 light theme for adobe brackets
