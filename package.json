@@ -3,18 +3,18 @@
 	"name": "theme.spring.light",
 	"description": "A light theme with natural, fresh and readable palette. Best for PHP, JS, CSS",
 	"keywords": ["light", "theme", "spring","css","php","js"],
-	"homepage": "//github.com/MerryPanda/brackets-theme-spring-light",
+	"homepage": "https://github.com/MerryPanda/brackets-theme-spring-light",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "//github.com/MerryPanda/brackets-theme-spring-light.git"
+		"url": "https://github.com/MerryPanda/brackets-theme-spring-light.git"
 	},
 	"bugs": {
-		"url": "//github.com/MerryPanda/brackets-theme-spring-light/issues"
+		"url": "https://github.com/MerryPanda/brackets-theme-spring-light/issues"
 	},
 	"author": {
 		"name": "MerryPanda",
-		"url": ""
+		"url": "https://github.com/MerryPanda"
 	},
 	"theme": {
 		"file": "theme.spring.light.less",
