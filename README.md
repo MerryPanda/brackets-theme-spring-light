@@ -2,4 +2,5 @@ Brackets Theme / Spring Light
 ============================
 Nice light theme for adobe brackets
 
-[Ambiance theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/ambiance.png) 
+php[php](raw.githubusercontent.com/MerryPanda/brackets-theme-spring-light/master/example/css.png) 
+js[js](raw.githubusercontent.com/MerryPanda/brackets-theme-spring-light/master/example/js.png) 
