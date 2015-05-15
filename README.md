@@ -1,3 +1,3 @@
 Brackets Theme / Spring Light
 ============================
-light theme for adobe brackets
+Nice light theme for adobe brackets
