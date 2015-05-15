@@ -1,0 +1,154 @@
+/* palette */
+@background: #f1f1f1;
+@foreground: #292e33;
+@gray:       #c4c4c4;
+@black:      #000000;
+@blue:       #0088e3;
+@teal:       #00b084;
+@aqua:       #1cbfe8;
+@indigo: #003cff;
+@purple:     #9f48b0;
+@red:        #ef2540;
+@magenta:       #ff0077;
+@orange:     #d8542c;
+@white:#ffffff;
+@yellow:     #df9516;
+@green:      #00a316;
+@test: #FF0AE2;
+/* selection colors */
+@selection-color-focused:   fade(@blue, 15%);
+@selection-color-unfocused: fade(@gray, 35%);
+/* active line colors */
+@active-line-bg: fade(@gray, 25%);
+@active-line-gutter-bg: fade(@gray, 40%);
+@active-line-number-color: @black;
+/* editor styling */
+.cm-keyword{ color: darken(@blue,10%); font-weight: bold; font-style: italic;} /* keywords */
+.cm-atom{ color: @teal; font-weight: bold;} /* constant */
+.cm-number{ color: @teal; } /* number */
+.cm-def{ color: lighten(@blue,5%); font-weight: bold;} /* variable def */
+.cm-variable{ color: @black;} /* user function */
+.cm-variable-2{ color: lighten(@blue,5%); font-weight: bold;} /* variable */
+.cm-variable-3{ color: @red; }
+.cm-operator{ color: darken(@blue,10%); } /* &&, +, -> */
+.cm-comment{ color: darken(@gray,10%); font-style: italic;}
+.cm-string{ color: darken(@green,5%); } /* literal string*/
+.cm-string-2{ color: darken(@teal,5%); } /* regex*/
+.cm-meta{ color: lighten(@blue,5%); font-weight: bold; } /* doctype, proprty prefix (webkit-) */
+.cm-error{ color: @red; }
+.cm-qualifier{ color: @black; } /* class selector */
+.cm-builtin{ color: @black;} /* buildin words */
+.cm-bracket{color: @test;}
+.cm-tag{ color: darken(@blue,10%); font-weight: bold; font-style: italic;}
+.cm-tab {box-shadow: inset 1px 0 fade(@gray,50%); width:2em;}
+.cm-attribute{ color: @red; } /* attribute (href, src) */
+.cm-header{ color: @red; }
+.cm-quote{ color: @blue; }
+.cm-hr{ color: @orange; }
+.cm-link{ color: @yellow; }
+.cm-strong{ color: @green; }
+.cm-em{ color: @green; }
+.cm-rangeinfo{color: @aqua;}
+.cm-minus{ color: @red;}
+.cm-plus{color: @green;}
+.cm-property{color: @blue;} /* property */
+
+.cm-matchhighlight{border-bottom-color: @blue; }
+.quick-view-highlight{background-color: fade(@gray, 0%); }
+
+.CodeMirror-linenumber,
+.CodeMirror-line,
+.CodeMirror-scroll,
+.CodeMirror-gutters {font-family:calibri;}
+
+.CodeMirror {
+    line-height: 1.4;
+}
+
+.CodeMirror-scroll {background-color: @background; color: @black;}
+
+.CodeMirror-gutters {
+    background-color: darken(@background, 2%);
+}
+
+.CodeMirror-selected {
+    background-color: @selection-color-unfocused;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background-color: @selection-color-focused;
+}
+
+.CodeMirror-searching {background-color: darken(@gray, 5%); color: @black !important;}
+
+.CodeMirror-searching .searching-current-match {
+    background-color: @foreground;
+}
+
+.CodeMirror-nonmatchingbracket {
+    background-color: fade(@red, 50%);
+    color: @black !important;
+}
+
+.CodeMirror-focused .CodeMirror-nonmatchingbracket {
+    background-color: fade(@red, 75%);
+}
+
+.CodeMirror-matchingbracket {
+    background-color: lighten(@gray, 10%);
+    color: @red !important;
+}
+
+.CodeMirror-focused .CodeMirror-matchingbracket {
+    background-color: lighten(@gray, 5%);
+}
+
+.CodeMirror-matchingtag {
+    background-color: lighten(@gray, 15%);
+}
+
+.CodeMirror-focused .CodeMirror-matchingtag {
+    background-color: lighten(@gray, 10%);
+}
+
+.CodeMirror-linenumber {color: darken(@gray,15%);}
+.CodeMirror-activeline .CodeMirror-linenumber {color: @black;}
+.CodeMirror-activeline-background {background-color: lighten(@gray, 10%);}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background-color: @active-line-bg !important;
+}
+
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: fadeout(@active-line-gutter-bg, 15%);
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: @active-line-gutter-bg;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid @black;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid @black;
+    border-left: none;
+}
+
+.CodeMirror-foldmarker {
+    border-color: lighten(@gray, 5%);
+    background-color: #fff;
+    color: lighten(@black, 40%);
+}
+
+/* non-editor styling */
+.not-editor {
+    background-color: @background;
+    /*transition: background-color 0.15s ease-out;*/
+}
+
+.image-view {
+    background-color: @background;
+    color: @foreground;
+}
