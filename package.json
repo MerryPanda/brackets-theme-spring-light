@@ -1,6 +1,6 @@
 {
 	"title": "Theme / Spring Light",
-	"name": "theme.spring.light",
+	"name": "brackets-theme-spring-light",
 	"description": "A light theme with natural, fresh and readable palette. Best for PHP, JS, CSS",
 	"keywords": ["light", "theme", "spring","css","php","js"],
 	"homepage": "https://github.com/MerryPanda/brackets-theme-spring-light",
@@ -23,5 +23,5 @@
 	"engines": {
 		"brackets": ">=1.0.0"
 	},
-	"version": "0.8.2"
+	"version": "1.0.0"
 }
